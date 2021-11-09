@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@400;600;700&display=swap');
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html {
+
+  scroll-behavior: smooth;
+
+}
+
+body {
+  
+  background-color: hsl(0, 0%, 0%);
+  
+}
+
+.main-menu {
+  
+  background-color: hsla(146, 98%, 82%, 0.431);
+  backdrop-filter: blur(12px);
+  width: 100%;
+  padding: 24px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  
+}
+
+.main-menu ul {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+.logo-nav {
+
+  max-width: 100px;
+  margin-left: 5%; 
+
+}
+
+.main-menu .main-list {
+
+  display: flex;
+  gap: 42px;
+  margin-left: 50%;
+}
+
+.main-menu ul a {
+display: flex;
+color: rgba(255, 255, 255, 0.5);
+font-size: 18px;
+text-decoration: none;
+margin-top: 40px;
+
+
+}
+
+.item-azul a:hover {
+  
+  color: hsl(198, 100%, 56%);
+  
+}
+
+.item-lightblue a:hover {
+  
+  color: hsl(146, 98%, 82%);
+  
+}
+
+
+main {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.introduction h1 {
+  
+  color: hsl(0, 0%, 100%);
+  font-size: 72px;
+  letter-spacing: 3px;
+  margin-top: 180px;
+  font-family: 'DM Serif Display', serif;
+
+}
+
+.socials {
+
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+
+}
+
+.socials a {
+
+  text-decoration: none;
+
+}
+
+.socials a i {
+
+  color: hsl(198, 100%, 50%);
+  font-size: 40px;
+  opacity: .5;
+}
+
+.socials a i:hover {
+
+  opacity: 1;
+
+}
+.introduction article {
+
+  display: flex;
+  gap: 350px;
+  margin-top: 40px;
+
+}
+
+
+.introduction article p {
+
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 20px;
+  line-height: 30px;
+  
+}
+
+.introduction article p a {
+
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+
+}
+
+.introduction article p a:hover {
+
+  color: hsl(198, 100%, 56%)
+
+}
+.introduction article img {
+
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 32px;
+
+}
+
+.divider-1 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    hsl(198, 100%, 56%),
+    hsl(146, 98%, 82%)
+  );
+  margin-top: 72px;
+}
+
+.works {
+
+  margin-top: 72px;
+}
+
+.section-title {
+
+color: hsl(0, 0%, 100%);
+font-size: 48px;
+
+}
+
+.works article {
+
+  margin-top: 72px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.works article h1 {
+
+  color: hsl(0, 0%, 100%);
+  font-size: 32px;
+
+}
+
+.works article p {
+
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 18px 0 24px;
+
+}
+
+.works article a {
+
+  color: hsl(198, 100%, 56%);
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+.works .infos {
+
+  width: 500px;
+
+}
+
+.works .images {
+
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 200px;
+
+}
+
+.works .images img {
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 24px;
+
+}
+
+.contact {
+
+  margin-top: 72px;
+  
+}
+
+.contact p{
+
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 20px;
+  line-height: 30px;
+  margin: 18px 0 24px;
+
+}
+
+
+.contact i {
+
+  color: hsl(198, 100%, 50%);
+  font-size: 32px;
+  opacity: .5;
+
+}
+
+.contact i:hover {
+
+  opacity: 1;
+
+}
+
+.contact a {
+
+  display: flex;
+  margin-top: 24px;
+
+}
+
+.contact ul li {
+  display: flex;
+  margin-top: 12px;
+  gap: 12px;
+  
+}
+
+
+.contact .text-icon {
+
+  color: hsla(0, 0%, 100%, 0.5);
+  text-decoration: none;
+  gap: 12px;
+
+}
+
+.contact .icon-contact a {
+
+  text-decoration: none;
+
+}
+
+.contact .icon-contact {
+
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 12px;
+
+}
+
+
+footer {
+  
+  margin-top: 72px;
+  background-color: hsla(146, 98%, 82%, 0.431);
+}
+
+.footer {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  
+  
+}
+
+.brand {
+
+  display: flex;
+}
+
+.logo-footer {
+  
+  width: 250px;
+  height:100px;
+  margin-top: 12px;
+
+}
+
+.text {
+  color: aliceblue;
+  position: absolute;
+  top: 268%;
+  left: 75%;
+
+}
+
+.text1 {
+
+  color: aliceblue;
+  position: absolute;
+  top: 270%;
+  left: 73%;
+
+}
